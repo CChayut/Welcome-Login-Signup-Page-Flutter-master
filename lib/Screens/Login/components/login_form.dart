@@ -1,9 +1,4 @@
 import 'package:flutter/material.dart';
-<<<<<<< Updated upstream
-=======
-import 'package:flutter_auth/Screens/User/User_add_data.dart';
-import 'package:flutter_auth/components/background.dart';
->>>>>>> Stashed changes
 
 import '../../../components/already_have_an_account_acheck.dart';
 import '../../../constants.dart';
@@ -49,22 +44,7 @@ class LoginForm extends StatelessWidget {
           ),
           const SizedBox(height: defaultPadding),
           ElevatedButton(
-<<<<<<< Updated upstream
             onPressed: () {},
-=======
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return UserAddData();
-                  },
-                ),
-              );
-              Colors:
-              kPrimaryLightColor;
-            },
->>>>>>> Stashed changes
             child: Text(
               "เข้าใช้งาน".toUpperCase(),
             ),
